@@ -14,3 +14,25 @@
     @apply p-2 text-center capitalize text-sm 
   }
 
+  .navsection_parent{
+    @apply relative hover:bg-gray-100 hover:text-gray-800 font-semibold p-4  px-8 rounded-lg cursor-pointer text-[16px]
+  }
+
+  .navsection{
+    @apply absolute border-gray-100  bg-gray-100 text-gray-800 h-[220px]
+  }
+.hot{
+  @apply absolute top-[-8px] left-8 font-light p-[1px] px-3 rounded-lg text-gray-50
+}
+
+.secondFooter_details{
+  @apply flex w-10/12 p-2 items-center  gap-3 text-start
+}
+
+.secondFooter_details_child{
+  @apply bg-yellow-500 p-3 text-gray-900 rounded-full 
+}
+
+.custom_flex_center{
+  @apply flex justify-center items-center
+}

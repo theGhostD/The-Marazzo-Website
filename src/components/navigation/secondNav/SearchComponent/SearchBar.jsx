@@ -25,19 +25,20 @@ const SearchBar = () => {
                         categories{" "}
                         <span>
                             {dropIcon ? (
-                                <AiFillCaretDown className="text-xs text-" />
+                                <AiFillCaretDown className="text-xs " />
                             ) : (
-                                <AiFillCaretUp className="text-xs text-" />
+                                <AiFillCaretUp className="text-xs" />
                             )}
                         </span>{" "}
                     </div>
 
                     <div
                         className={`${categoriesHover
-                                ? "bg-gray-500 absolute mt-1 top-[120px]"
+                                ? "bg-gray-500 absolute mt-1 top-[110px]"
                                 : "hidden"
                             }`}
                     >
+                        <span><AiFillCaretUp className="text-[25px] text-gray-500 absolute left-[50%] top-[-15px] " /></span>
                         <ul className=".drop_down_parent ">
                             <li className="drop_down ">
                                 <Link className="pr-12 pl-2">computer</Link>
@@ -65,7 +66,8 @@ const SearchBar = () => {
                         className=" bg-yellow-400 rounded-r-full h-full  p-4 text-lg"
                         onClick={() => { }}
                     >
-                        <ImSearch />
+                        <ImSearch className="text-gray-800 text-lg
+                        "/>
                     </button>
                 </div>
             </form>

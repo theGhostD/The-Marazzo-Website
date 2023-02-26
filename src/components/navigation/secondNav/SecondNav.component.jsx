@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../../../Assets/logo/marazzo_logo.png"
 import Cart from './Cart/Cart'
-import SearchBar from './SearchBar'
+import SearchBar from './SearchComponent/SearchBar'
 
 const SecondNavcomponent = () => {
   return (
